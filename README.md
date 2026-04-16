@@ -1,7 +1,7 @@
 # Sorteador de Números 🎲
 
 <p align="center">
-  <img width="1895" height="947" alt="image" src="https://github.com/user-attachments/assets/9b6bd026-6e22-4c14-b8c0-43b931ea6aa9" />
+  <img src="./img/foto-pagina.jpg" alt="Demonstração do Sorteador de Números" width="800px">
 </p>
 
 ---
@@ -48,4 +48,14 @@ O design conta com uma paleta de cores moderna e elementos visuais que indicam c
 
 ---
 
-**Desenvolvido por [Rodrigo Jatobá](https://github.com/RodrigoJatoba)** 🚀
+## 🤝 Contato
+
+**Rodrigo Jatobá** 
+
+[![github](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RodrigoJatoba)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigo-jatobá-9ab11b238/)
+[![outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:rodrigosouza_al@hotmail.com)
+
+---
+
+**Desenvolvido por Rodrigo Jatobá** *durante as aulas da Alura.*
