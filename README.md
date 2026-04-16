@@ -1,7 +1,7 @@
 # Sorteador de Números 🎲
 
 <p align="center">
-  <img src="./img/foto-pagina.png" alt="Demonstração do Sorteador de Números" width="1895" height="947">
+  <img src="./img/foto-pagina.png" alt="Img do Sorteador de Números" width="100%">
 </p>
 
 ---
@@ -44,6 +44,7 @@ O design conta com uma paleta de cores moderna e elementos visuais que indicam c
 * Campos de input específicos para números.
 * Uso de fontes personalizadas via Google Fonts (Chakra Petch e Inter).
 * Feedback textual direto para o usuário sobre os resultados do sorteio.
+
 (Criado pela Alura)
 
 ---
