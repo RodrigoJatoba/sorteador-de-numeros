@@ -1,7 +1,7 @@
 # Sorteador de Números 🎲
 
 <p align="center">
-  <img src="./img/foto-pagina.jpg" alt="Demonstração do Sorteador de Números" width="800px">
+  <img src="./img/foto-pagina.png" alt="Demonstração do Sorteador de Números" width="1895" height="947">
 </p>
 
 ---
