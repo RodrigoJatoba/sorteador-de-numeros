@@ -49,6 +49,12 @@ O design conta com uma paleta de cores moderna e elementos visuais que indicam c
 
 ---
 
+## 🌐 Acesse o projeto
+**🔗 Deploy (GitHub Pages):**
+* https://rodrigojatoba.github.io/sorteador-de-numeros/
+
+---
+
 ## 🤝 Contato
 
 **Rodrigo Jatobá** 
