@@ -7,10 +7,11 @@
 
 body {
     background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
-    height: 100vh;
+    min-height: 100vh; /* Mudado de height para min-height */
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px; /* Evita que o container encoste nas bordas da tela */
 }
 
 body::before {
@@ -26,8 +27,11 @@ body::before {
 }
 
 .container {
-    width: 80%;
-    min-height: 50vh;
+    width: 95%;
+    max-width: 1200px; 
+    min-height: auto;
+    padding: 1rem;
+    margin: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,6 +49,15 @@ body::before {
     align-items: center;
     position: relative;
     width: 100%;
+    flex-direction: column; /* Padrão para mobile */
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__conteudo {
+        flex-direction: row; /* Volta a ser lado a lado em telas grandes */
+        text-align: left;
+    }
 }
 
 .container__informacoes {
@@ -65,14 +78,29 @@ body::before {
 }
 
 .container__campo {
-    display: flex;
+    display: flex; /* Adicionado para habilitar o flex-direction */
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    gap: 10px;
     margin-bottom: 12px;
 }
 
+@media screen and (min-width: 768px) {
+    .container__campo {
+        flex-direction: row; /* Lado a lado em tablets/PCs */
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .container__imagem-pessoa {
+        display: none;
+    }
+}
+
 .container__input {
-    width: 130px;
+    width: 100%; /* Ocupa o espaço disponível no mobile */
+    max-width: 150px; /* Não deixa ficar largo demais no PC */
     height: 72px;
     border-radius: 16px;
     background-color: #FFF;
@@ -86,8 +114,15 @@ body::before {
 
 .container__botoes {
     display: flex;
-    flex-direction: row;
+    flex-direction: column; 
+    width: 100%;
     gap: 1em;
+}
+
+@media screen and (min-width: 480px) {
+    .container__botoes {
+        flex-direction: row; /* Lado a lado se houver espaço mínimo */
+    }
 }
 
 .container__botao {
@@ -114,17 +149,17 @@ body::before {
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
+    font-size: clamp(2rem, 8vw, 4.5rem);
     font-style: normal;
     font-weight: 700;
     line-height: 100%;
-    padding: 2rem;
+    padding: 1rem 0;
 }
 
 .texto__paragrafo {
     color: #FFF;
     font-family: 'Inter';
-    font-size: 32px;
+    font-size: clamp(1.2rem, 4vw, 2rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
